@@ -52,6 +52,25 @@
 }
 
 /* Animation */
+.bottom-controls {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  background: #111;
+  text-align: center;
+}
+
+.bottom-controls .btn {
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .bottom-controls .btn {
+    width: 90%;
+    display: block;
+    margin: 8px auto;
+  }
+}
 
 @-webkit-keyframes spinner {
   0% {
